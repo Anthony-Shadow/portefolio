@@ -44,11 +44,20 @@ header{
     width: 100%;
     margin: auto;
     
+    
+}
+
+
+
+.teste{
+    text-shadow: 1px 1px 0 #873900, 2px 2px 0 #004696, 3px 3px 0 #A74600;
 }
 
 
 .img{
-    width: 600px;
+    width: 55%;
+    border-radius: 15px 15px;
+
 }
 
 .bgblack{
@@ -80,7 +89,7 @@ h1{
 
 .btn{
     border-radius: 4px;
-    padding: 10px;
+    
     color: white;
     display:inline-block;
     margin-top: 35px;
@@ -89,5 +98,24 @@ h1{
 
 
 .largeur10{
-    width: 1000px;
+    width: 500px;
 }
+
+
+.laruche{
+    width: 500px;
+}
+
+
+
+.bgb3{
+background-color: #6A1E55;
+}
+
+.bgb4{
+    background-color: #310428c1;
+}
+
+
+
+
