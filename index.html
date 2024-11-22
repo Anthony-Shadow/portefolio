@@ -1,98 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Animé</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <header class="flex spaceBetween alignCenter">
-        <img src="/assets/logo.jpg" alt="" class="logo">
-        <nav class="navheader">
-            <ul class="flex spaceBetween bold">
-                <li><a href="">Accueil</a></li>
-                <li><a href=""></a></li>
-                <li><a href="">à propos</a></li>
-                <li><a href=""></a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class=" bgblack flex ">
-            <div class=" container flex spaceBetween alignCenter">
-                <div class="hero largeur10 alignCenter teste">
-                    <h2 class="te">Hello!</h2>
-                    <p class="btn bold">Bonjour je m'appele ANTHONY et je suis en</p>
-                    <h1 class="bold">formation la toile</h1>
-                </div>
-                <div class="flex spaceBetween">
-                    <h2><a href=""></a></h2>
-                    <a href=""> <img src="" alt=""></a>
-                    <a href=""> <img src="" alt=""></a>
-                    <a href=""> <img src="" alt=""></a>
-                </div>
-                <img src="/assets/photo1.png" alt="" class="img ">
-            </div>
-        </section>
-        <section class="bgb2">
-            <h2>Mes projet</h2>
-            <div>
-                <div>
-                    <h3 class="whitecolor">La ruche</h3> 
-                    <a href="https://anthony-shadow.github.io/la_ruchetop1/" class="flex spaceBetween">
-                        <img
-                            src="/assets/la ruche.png" alt="" class="laruche">
-                        </a>
+  <!-- Section d'accueil -->
+  <header class="hero">
+    <div class="hero-content">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <p>Explorez mes projets et compétences</p>
+      <a href="#projects" class="btn">Voir mes projets</a>
+    </div>
+  </header>
 
-                    <p></p>
-                </div>
-                <div>
-                    <h3 class="whitecolor">nos chanteur</h3> 
-                    <a href="https://anthony-shadow.github.io/vlo/" class="flex spaceBetween">
-                        <img
-                            src="/assets/nos chanteur.png" alt="" class="laruche">
-                        </a>
+  <!-- Section À propos -->
+  <section id="about" class="about">
+    <h2>À propos de moi</h2>
+    <p>Je suis en formation, passionné(e) par le code et les jeux video. Mon objectif est de créer des solutions innovantes.</p>
+  </section>
 
-                    <p></p>
-                </div>
-                <div> <a href=""><img src="" alt=""></a>
-                    <h3></h3>
-                    <p></p>
-                </div>
-                <div> <a href=""><img src="" alt=""></a>
-                    <h3></h3>
-                    <p></p>
-                </div>
-            </div>
-        </section>
-        <section class="bgb3">
-            <h2>Mes qualités</h2>
-            <div>
-                <div><img src="" alt="">
-                    <h3>Dynamique</h3>
-                </div>
-                <div><img src="" alt="">
-                    <h3></h3>
-                </div>
-                <div><img src="" alt="">
-                    <h3></h3>
-                </div>
-            </div>
-        </section>
-    </main>
-    <footer class="bgb4">
-        <h2>Mon parcours</h2>
-        <div>
-            <div></div>
-        </div>
-    </footer>
+  <!-- Section Projets -->
+  <section id="projects" class="projects">
+    <h2>Mes Projets</h2>
+    <div class="project-grid">
+      <div class="project-card">
+       <a href="https://anthony-shadow.github.io/vlo/">
+        <img src="/assets/nos chanteur.png" alt="Projet 1">
+      </a>
+        <h3>Projet 1</h3>
+        <p>c'est le premier site que j'ai fait avec ma formation </p>
+      </div>
+      <div class="project-card">
+        <a href="https://anthony-shadow.github.io/la_ruchetop1/">
+        <img src="/assets/la ruche.png" alt="Projet 2">
+      </a>
+        <h3>Projet 2</h3>
+        <p>un site pour faire une avance sur une vente de miel</p>
+      </div>
+    </div>
+  </section>
+
+
+
+  <script src="script.js"></script>
 </body>
-
-
-<script>
-</script>
-
 </html>
